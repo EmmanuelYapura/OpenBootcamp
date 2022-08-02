@@ -1,0 +1,14 @@
+.btn-modern{
+    transition: transform 0.4s;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: rgb(36, 243, 174);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.btn-modern:hover::after{
+    content: ' Cambio el texto';
+}
