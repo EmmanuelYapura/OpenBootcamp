@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-01",
+  "version": "1.0.0",
+  "description": "Este es el ejercicio nro 1 del curso de JS basico en OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Yapura",
+  "license": "ISC"
+}
