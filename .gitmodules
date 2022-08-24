@@ -1,0 +1,3 @@
+[submodule "open-bootcamp/Javascript/OpenBootcamp"]
+	path = open-bootcamp/Javascript/OpenBootcamp
+	url = https://github.com/EmmanuelYapura/OpenBootcamp.git
