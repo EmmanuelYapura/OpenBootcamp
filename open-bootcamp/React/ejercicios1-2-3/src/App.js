@@ -1,12 +1,20 @@
+import logo from './logo.svg';
 import './App.css';
-import { Contacto } from './components/ComponentA';
-import ComponentB from './components/ComponentB';
+import ComponenteA from './components/ComponenteA';
 
 function App() {
-  const contacto = new Contacto('Emmanuel','Yapura', 'eyapura96@gmail.com', true)
+  const contactoPrueba = {
+    nombre: 'Fulanito',
+    apellido: 'de OpenBootcamp',
+    email: 'fulanito@open-bootcamp.com',
+    conectado: false,
+  };
   return (
     <div className="App">
-      <ComponentB contact={contacto}/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <ComponenteA contacto={contactoPrueba} />
+      </header>
     </div>
   );
 }
